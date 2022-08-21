@@ -1,0 +1,296 @@
+body {
+    height: 100%;
+    margin: 0%;
+  }
+  
+  html {
+    height: 100%;
+    scroll-behavior: smooth;
+  }
+  nav {
+    padding:0;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding:0px;
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: Josefin Sans;
+    font-size: 24px;
+    z-index: 4;
+    align-items: center;
+  }
+  
+  
+  
+  li {
+    float: right;
+    font-family: Josefin Sans;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: transparent;
+    color: #F2CF59;
+  }
+  
+  
+  #portfolio-box-main {
+    background-image: url("../images/boxframe.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: transparent;
+    color: black;
+  }
+  
+  h1 {
+    font-family: Josefin Sans;
+    font-weight: 1000;
+    font-size: 48px;
+  }
+  
+  h2 {
+    font-family: Josefin Sans;
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 15vh;
+  }
+  
+  h3 {
+    font-size: 40px;
+    font-weight: 300;
+    font-family: Josefin Sans;
+    display: inline-block;
+  }
+  
+  
+  .first-txt {
+    position: absolute;
+    top: 17px;
+    left: 50px;
+  }
+  
+  .second-txt {
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+  }
+  .arrow {
+    box-sizing: border-box;
+    height: 2vw;
+    width: 2vw;
+    border-style: solid;
+    border-color: #F2CF59;
+    border-width: 0 7px 7px 0;
+    /* position: absolute;  */
+    margin-top: -150px;
+    
+  }
+  
+  .arrow:hover {
+    border-color: aqua ;
+    border-bottom-width: 14px;
+    border-right-width: 14px;
+  }
+  
+  .arrow-container {
+    width: 25px;
+    animation: bounce 1600ms infinite cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    cursor: pointer;
+    height: 20px;
+    margin: auto;
+    padding-top :45px;
+    
+    
+  }
+  
+  @keyframes bounce {
+  50% {
+      transform: translateY(-15px);
+    }
+  }
+  
+  .homescreenbackground {
+    background-image: url("../images/homescreenbackground.png");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+  }
+  
+  .aboutmescreenbackground {
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  
+  .text h1 {
+    display: inline-block;
+    font-family: Josefin Sans;
+    font-weight: 1000;
+    font-size: 48px;
+    position: relative;
+    margin-top: 150px;
+    left: 100px;
+  
+  }
+  
+  .text h3 {
+    display: inline-block;
+    font-family: Josefin Sans;
+    font-size: 36px;
+    font-weight: 300;
+    margin-top: 2px;
+    left: 100px;
+    position: relative;
+  }
+  
+  .AboutMe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .worktest {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .image {
+    flex-basis: 150%;
+    order: 2;
+  }
+  
+  .text {
+    font-size: 20px;
+    padding-left: 20px;
+  }
+  
+  .AboutMe p {
+    font-family: Josefin Sans;
+    padding-left: 20px;
+    left: 100px;
+    margin-left: 100px;
+    text-align: justify;
+    font-size: 22px;
+  }
+  
+  .UIUX {
+    font-family: Josefin Sans;
+    font-weight: 1000;
+    font-size: 36px;
+    position: relative;
+  }
+  
+  .UIUX h2 {
+    display: inline-block;
+    font-family: Josefin Sans;
+    font-weight: 1000;
+    font-size: 36px;
+    position: relative;
+  }
+  
+  .UIUX p {
+    font-size: 22px;
+    font-family: Josefin Sans;
+    padding-left: 20px;
+    left: 100px;
+    margin-left: 100px;
+    text-align: justify;
+    font-weight: 100;
+  
+  }
+  .skills {
+    margin-left: 120px;
+  }
+  
+  .skills h3 {
+    display: inline-block;
+    font-family: Josefin Sans;
+    left: 20px;
+  }
+  
+  .skills p {
+    font-size: 22px;
+    font-family: Josefin Sans;
+    padding-left: 20px;
+    margin-right: 80px;
+    ;
+    text-align: justify;
+    font-weight: 100;
+  }
+  
+  .other {
+    margin-left: 120px;
+  }
+  
+  .other h2 {
+    display: inline-block;
+    font-family: Josefin Sans;
+    left: 20px;
+  }
+  
+  .other p {
+    font-size: 22px;
+    font-family: Josefin Sans;
+    padding-left: 20px;
+    margin-right: 80px;
+    ;
+    text-align: justify;
+    font-weight: 100;
+  }
+  
+  #hobbies {
+    align-content: center;
+
+    display: flex;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Josefin Sans;
+  }
+  
+ 
