@@ -45,13 +45,22 @@ body {
     color: #F2CF59;
   }
   
-  
+  .homescreenbackground {
+    background-image: url("../images/homescreenbackground.png");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+  }
   #portfolio-box-main {
     background-image: url("../images/boxframe.png");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
+  
   }
+
   
   .centered {
     position: absolute;
@@ -130,15 +139,6 @@ body {
     }
   }
   
-  .homescreenbackground {
-    background-image: url("../images/homescreenbackground.png");
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-top: 40px;
-  }
-  
   .aboutmescreenbackground {
     height: 100%;
     background-position: center;
@@ -168,7 +168,6 @@ body {
     position: relative;
     margin-top: 150px;
     left: 100px;
-  
   }
   
   .text h3 {
@@ -194,23 +193,22 @@ body {
   }
   
   
-  .image {
-    flex-basis: 150%;
-    order: 2;
-  }
-  
   .text {
     font-size: 20px;
     padding-left: 20px;
+    margin-left: 20px;
+    margin-right:20px;
+    
   }
   
   .AboutMe p {
     font-family: Josefin Sans;
     padding-left: 20px;
-    left: 100px;
+    
     margin-left: 100px;
-    text-align: justify;
+    margin-right: 100px;
     font-size: 22px;
+    
   }
   
   .UIUX {
@@ -218,6 +216,8 @@ body {
     font-weight: 1000;
     font-size: 36px;
     position: relative;
+
+    
   }
   
   .UIUX h2 {
@@ -277,11 +277,10 @@ body {
     text-align: justify;
     font-weight: 100;
   }
-  
-  #hobbies {
-    align-content: center;
-
-    display: flex;
+  .hobbies {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   * {
