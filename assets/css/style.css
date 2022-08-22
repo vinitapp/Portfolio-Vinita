@@ -292,13 +292,28 @@ body {
     margin-right: auto;
   }
   
-  * {
+  /* * {
     box-sizing: border-box;
-  }
+  } */
   
   body {
     margin: 0;
     font-family: Josefin Sans;
   }
   
+  /* Work cards*/
+  /* Colums side by side */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+   /* margins left and right */
+  .row {margin: 0 -5px;}
+ /* Floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
  
