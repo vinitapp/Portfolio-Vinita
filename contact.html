@@ -11,27 +11,49 @@
 </head>
 
 <body>
-    <div class="container">
-        <form action="action_page.php">
+    <header>
+        <nav>
+            <ul class="navBar">
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#about">About</a></li>
 
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <a href="https://vinitapp.github.io/Portfolio-Vinita/"><img id="imageSec"
+                        onClick="RotateImageMethod(360);" src="./assets/images/logo.png" alt="Vinita Icon"
+                        style="float: left; margin-left: 50px; height:70px" /></a>
 
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            </ul>
+        </nav>
 
-            <label for="country">Country</label>
-            <select id="country" name="country">
-                <option value="australia">Australia</option>
-                <option value="canada">Canada</option>
-                <option value="usa">USA</option>
-            </select>
+    </header>
 
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    <section class="contactForm">
 
-            <input type="submit" value="Submit">
+        <h1>Get in </h1>
+        <h1 style="color:#F2CF59;font-family: Londrina Shadow;font-weight: 800;">Touch...!</h1>
+    </section>
 
+    <div id="form">
+        <form>
+            <div class="formgroup" id="name-form">
+                <label for="name">Your name*</label>
+                <input type="text" id="name" name="name" />
+            </div>
+
+            <div class="formgroup" id="email-form">
+                <label for="email">Your e-mail*</label>
+                <input type="email" id="email" name="email" />
+            </div>
+
+            <div class="formgroup" id="message-form">
+                <label for="message">Your message</label>
+                <textarea id="message" name="message"></textarea>
+            </div>
+
+            <input type="submit" value="Send your message!" />
         </form>
     </div>
 </body>
+
+</html>
