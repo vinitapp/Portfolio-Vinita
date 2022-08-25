@@ -300,3 +300,10 @@ body {
     margin: 0;
     font-family: Josefin Sans;
   }
+  /* Responsive  */
+  @media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+  }

@@ -293,4 +293,16 @@ body {
       margin-left:40px;
     
   }
+  @media screen and (max-width:768px) {
+
+    .column-66,
+    .column-33 {
+      width: 100%;
+      text-align: center;
+    }
+  
+    nav {
+      flex-direction: column;
+    }
+  }
  
