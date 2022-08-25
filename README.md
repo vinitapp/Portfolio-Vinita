@@ -23,3 +23,11 @@
                         helping
                         and
                         understanding their needs and finding efficient solutions to problems.</p>
+
+<div class="skills">
+            <h3>Skills and Softwares </h3>
+            <li>HTML 5</li>
+            <li>CSS 3</li>
+            <li>Figma</li>
+            <li>Miro</li>
+            
