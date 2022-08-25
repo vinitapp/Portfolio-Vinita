@@ -188,7 +188,13 @@ body {
     left: 100px;
     position: relative;
   }
-  
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
   .AboutMe {
     display: flex;
     align-items: center;
