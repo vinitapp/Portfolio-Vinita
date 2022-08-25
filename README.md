@@ -30,4 +30,13 @@
             <li>CSS 3</li>
             <li>Figma</li>
             <li>Miro</li>
+
+<div class="link">
+ <a href="https://vinitapp.github.io/Portfolio-Vinita/">
+ <p> It consits of 3 projects created during the course</p>
+ <li>TRIPSPHERE:(individual project) A mobile app created with lucrative deals for budget friendly travellers.<li>
+ <li>TOTSPOT:(group project) A mobile app designed not only for for mum but also for dads that help them finding a baby changing room in need of emergency while travelling.
+ <li>STREAT:(group project) Redesigned the existing website for the STREAT non-profit organization that work towards providing a better life for the disadvantaged youth. </li>
+
+
             
