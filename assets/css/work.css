@@ -92,6 +92,7 @@
     padding: 16px;
     text-align: center;
     background-color: #F2CF59;
+  
   }
   .card1:hover {
     box-shadow: 10px 10px 6px 0 #75b975;
@@ -119,9 +120,7 @@
   .container {
     padding: 2px 4px;
   }
-  .column a {
-    text-decoration: none;
-  }
+  
   .footer #button{
     width:15px;
     height:15px;
