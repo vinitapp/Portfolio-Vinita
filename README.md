@@ -32,15 +32,16 @@
             <li>Miro</li>
 
 <div class="link">
-            <p> It consits of 3 projects created during the course</p>
+            <h3>Projects included</h3>
+            <a href="https://vinitapp.github.io/Portfolio-Vinita/"> 
             <li>TRIPSPHERE:(individual project) A mobile app created with lucrative deals for budget friendly travellers.<li>
             <li>TOTSPOT:(group project) A mobile app designed not only for for mum but also for dads that help them finding a baby changing room in need of emergency while travelling.
             <li>STREAT:(group project) Redesigned the existing website for the STREAT non-profit organization that work towards providing a better life for the disadvantaged youth. </li>
-            <a href="https://vinitapp.github.io/Portfolio-Vinita/">
+            
 
 <div class="contact">
             <p>Get in touch with me on</p>
-            <p>Linkedin Profile<a href="https://www.linkedin.com/in/vinita-prabhu-10229722b/">LinkedIn</a></p>
+            <p>Linkedin Profile: <a href="https://www.linkedin.com/in/vinita-prabhu-10229722b/">LinkedIn</a></p>
             <p>Or Email me at: <a href="mailto:vinita@prabhu.com.au">Vinita Prabhu</a></p>
 
 
